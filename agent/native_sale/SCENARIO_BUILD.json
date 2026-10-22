@@ -1,0 +1,44 @@
+{
+  "target": "x86_64-unknown-linux-gnu",
+  "rust_image": "farm-rust-valuation:1.85.1",
+  "mode": "cargo build --release --offline",
+  "previous_linux_sha256": "aaef9a065fa56c654f8734664e7adbdf51d796e32a2084359de0f8d7d996bb44",
+  "windows": "Inherited unchanged implementation. Only Linux received exact scenario reuse.",
+  "files": {
+    "src/lib.rs": "74e6b92f3f2bfb78e3de748d75027471996fa7e7f9ec286d9eaccbe5c04fb834",
+    "src/settlement.rs": "cf26df50162f0100f28b99a64e4b0d406d94f9965f82d96ccd54e0b0302a8e7d",
+    "src/demand.rs": "272ee4ca808e648e565096094422b6576da45bfca5002214df984460af8e84f9",
+    "Cargo.toml": "f2ca52baf1f34a10f4de41c987e33b37c565ea376c827c8fa592211280397eee",
+    "Cargo.lock": "bacb0ef9c94756b7a90f45cbc8a17be72985a53e5273bc7fbe668ab897e3225f",
+    "bin/libfarm_sale.so": "dd74893ee986ad62ef400b40ae6fde60503a04c7978e1f7557a39a0aedacc239",
+    "bin/farm_sale.dll": "07ad898c022fb7d93f5ebd67c7ea739e1b063cd5248cf1f1205ebadbe1c846f8"
+  },
+  "price_loop_inlining": {
+    "functions": [
+      "Prefix.integral",
+      "PriceLadder.sum_counts",
+      "PriceLadder.trade"
+    ],
+    "changes": "Compiler inlining annotations only; strict floating-point semantics retained"
+  },
+  "shared_price_ranges": {
+    "functions": [
+      "PriceLadder.initial_batch",
+      "PriceLadder.held_batch"
+    ],
+    "changes": "Prepare exact price prefix ranges once for a group of hold quantities; preserve individual fallback semantics"
+  },
+  "prediction_abi": {
+    "version": 1,
+    "status": "DIFFERENTIAL_AND_FIXED_WORK_VERIFIED",
+    "linux_only": true,
+    "purpose": "Apply the unchanged P110 current-day rival-sales overlay before native sale-window evaluation"
+  },
+  "shared_window_index": {
+    "status": "ABI_AND_BOUNDARY_DIFFERENTIAL_VERIFIED",
+    "linux_only": true,
+    "purpose": "Reuse the exact window lookup for every product and event in a complete settlement.",
+    "bounded_span": 145,
+    "generic_sparse_fallback": true
+  }
+}
