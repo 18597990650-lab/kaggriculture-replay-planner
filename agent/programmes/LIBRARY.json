@@ -1,0 +1,1685 @@
+{
+  "version": "BOEY02",
+  "lineage": "boey02",
+  "source_submissions": [
+    56686734,
+    56686742
+  ],
+  "opening_anchor": "boey02-00",
+  "first_shop_anchors": {
+    "ICE_CREAM_SHOP": "boey02-00",
+    "SMOOTHIE_SHOP": "boey02-00",
+    "PIZZA_SHOP": "boey02-28",
+    "FARMERS_MARKET": "boey02-10",
+    "BRUNCH_SPOT": "boey02-10",
+    "PET_CAFE": "boey02-20",
+    "BAKERY": "boey02-20",
+    "YARN_STORE": "boey02-34"
+  },
+  "paid_at_72": [
+    [
+      0,
+      0,
+      "STRAWBERRY",
+      1
+    ],
+    [
+      1,
+      0,
+      "MELON",
+      1
+    ],
+    [
+      2,
+      0,
+      "MELON",
+      0
+    ],
+    [
+      3,
+      0,
+      "MELON",
+      0
+    ],
+    [
+      4,
+      0,
+      "MELON",
+      0
+    ],
+    [
+      0,
+      1,
+      "WHEAT",
+      0
+    ],
+    [
+      1,
+      1,
+      "WHEAT",
+      0
+    ],
+    [
+      2,
+      1,
+      "MELON",
+      0
+    ],
+    [
+      3,
+      1,
+      "MELON",
+      0
+    ],
+    [
+      4,
+      1,
+      "MELON",
+      0
+    ],
+    [
+      0,
+      2,
+      "WHEAT",
+      0
+    ],
+    [
+      1,
+      2,
+      "WHEAT",
+      0
+    ],
+    [
+      2,
+      2,
+      "WHEAT",
+      0
+    ],
+    [
+      3,
+      2,
+      "MELON",
+      0
+    ],
+    [
+      4,
+      2,
+      "MELON",
+      0
+    ],
+    [
+      0,
+      3,
+      "WHEAT",
+      0
+    ],
+    [
+      1,
+      3,
+      "GOOSE",
+      2
+    ],
+    [
+      2,
+      3,
+      "GOOSE",
+      2
+    ],
+    [
+      3,
+      3,
+      "WHEAT",
+      0
+    ],
+    [
+      4,
+      3,
+      "SHEEP",
+      0
+    ],
+    [
+      0,
+      4,
+      "WHEAT",
+      0
+    ],
+    [
+      1,
+      4,
+      "COW",
+      0
+    ],
+    [
+      2,
+      4,
+      "COW",
+      0
+    ],
+    [
+      3,
+      4,
+      "COW",
+      0
+    ],
+    [
+      4,
+      4,
+      "SHEEP",
+      0
+    ]
+  ],
+  "groups": {
+    "boey02-00": {
+      "anchor": "boey02-00",
+      "group": "milk",
+      "first_shops": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "paid_at_144": [
+        [
+          0,
+          0,
+          "STRAWBERRY",
+          1
+        ],
+        [
+          1,
+          0,
+          "MELON",
+          1
+        ],
+        [
+          2,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          1,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          2,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          1,
+          2,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          2,
+          "COW",
+          5
+        ],
+        [
+          3,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          3,
+          "COW",
+          4
+        ],
+        [
+          1,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          2,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          3,
+          3,
+          "COW",
+          3
+        ],
+        [
+          4,
+          3,
+          "SHEEP",
+          0
+        ],
+        [
+          0,
+          4,
+          "COW",
+          4
+        ],
+        [
+          1,
+          4,
+          "COW",
+          0
+        ],
+        [
+          2,
+          4,
+          "COW",
+          0
+        ],
+        [
+          3,
+          4,
+          "COW",
+          0
+        ],
+        [
+          4,
+          4,
+          "SHEEP",
+          0
+        ]
+      ],
+      "routes": [
+        "boey02-00",
+        "boey02-01",
+        "boey02-02",
+        "boey02-03",
+        "boey02-04",
+        "boey02-05",
+        "boey02-06",
+        "boey02-07",
+        "boey02-08",
+        "boey02-09"
+      ]
+    },
+    "boey02-10": {
+      "anchor": "boey02-10",
+      "group": "brunch",
+      "first_shops": [
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT"
+      ],
+      "paid_at_144": [
+        [
+          0,
+          0,
+          "STRAWBERRY",
+          1
+        ],
+        [
+          1,
+          0,
+          "MELON",
+          1
+        ],
+        [
+          2,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          1,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          2,
+          "STRAWBERRY",
+          4
+        ],
+        [
+          1,
+          2,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          2,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          3,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          3,
+          "GOOSE",
+          4
+        ],
+        [
+          1,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          2,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          3,
+          3,
+          "COW",
+          3
+        ],
+        [
+          4,
+          3,
+          "SHEEP",
+          0
+        ],
+        [
+          0,
+          4,
+          "GOOSE",
+          4
+        ],
+        [
+          1,
+          4,
+          "COW",
+          0
+        ],
+        [
+          2,
+          4,
+          "COW",
+          0
+        ],
+        [
+          3,
+          4,
+          "COW",
+          0
+        ],
+        [
+          4,
+          4,
+          "SHEEP",
+          0
+        ]
+      ],
+      "routes": [
+        "boey02-10",
+        "boey02-11",
+        "boey02-12",
+        "boey02-13",
+        "boey02-14",
+        "boey02-15",
+        "boey02-16",
+        "boey02-17",
+        "boey02-18",
+        "boey02-19"
+      ]
+    },
+    "boey02-20": {
+      "anchor": "boey02-20",
+      "group": "pet",
+      "first_shops": [
+        "PET_CAFE",
+        "BAKERY"
+      ],
+      "paid_at_144": [
+        [
+          0,
+          0,
+          "STRAWBERRY",
+          1
+        ],
+        [
+          1,
+          0,
+          "MELON",
+          1
+        ],
+        [
+          2,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          1,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          2,
+          "MELON",
+          4
+        ],
+        [
+          1,
+          2,
+          "MELON",
+          3
+        ],
+        [
+          2,
+          2,
+          "MELON",
+          3
+        ],
+        [
+          3,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          3,
+          "GOOSE",
+          4
+        ],
+        [
+          1,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          2,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          3,
+          3,
+          "COW",
+          3
+        ],
+        [
+          4,
+          3,
+          "SHEEP",
+          0
+        ],
+        [
+          0,
+          4,
+          "GOOSE",
+          4
+        ],
+        [
+          1,
+          4,
+          "COW",
+          0
+        ],
+        [
+          2,
+          4,
+          "COW",
+          0
+        ],
+        [
+          3,
+          4,
+          "COW",
+          0
+        ],
+        [
+          4,
+          4,
+          "SHEEP",
+          0
+        ]
+      ],
+      "routes": [
+        "boey02-20",
+        "boey02-21",
+        "boey02-22",
+        "boey02-23",
+        "boey02-24",
+        "boey02-25",
+        "boey02-26",
+        "boey02-27"
+      ]
+    },
+    "boey02-28": {
+      "anchor": "boey02-28",
+      "group": "pizza",
+      "first_shops": [
+        "PIZZA_SHOP"
+      ],
+      "paid_at_144": [
+        [
+          0,
+          0,
+          "STRAWBERRY",
+          1
+        ],
+        [
+          1,
+          0,
+          "MELON",
+          1
+        ],
+        [
+          2,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          1,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          2,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          1,
+          2,
+          "MELON",
+          3
+        ],
+        [
+          2,
+          2,
+          "COW",
+          5
+        ],
+        [
+          3,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          3,
+          "COW",
+          4
+        ],
+        [
+          1,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          2,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          3,
+          3,
+          "COW",
+          3
+        ],
+        [
+          4,
+          3,
+          "SHEEP",
+          0
+        ],
+        [
+          0,
+          4,
+          "COW",
+          4
+        ],
+        [
+          1,
+          4,
+          "COW",
+          0
+        ],
+        [
+          2,
+          4,
+          "COW",
+          0
+        ],
+        [
+          3,
+          4,
+          "COW",
+          0
+        ],
+        [
+          4,
+          4,
+          "SHEEP",
+          0
+        ]
+      ],
+      "routes": [
+        "boey02-28",
+        "boey02-29",
+        "boey02-30",
+        "boey02-31",
+        "boey02-32",
+        "boey02-33"
+      ]
+    },
+    "boey02-34": {
+      "anchor": "boey02-34",
+      "group": "wool",
+      "first_shops": [
+        "YARN_STORE"
+      ],
+      "paid_at_144": [
+        [
+          0,
+          0,
+          "STRAWBERRY",
+          1
+        ],
+        [
+          1,
+          0,
+          "MELON",
+          1
+        ],
+        [
+          2,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          0,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          1,
+          1,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          3,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          1,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          2,
+          "MELON",
+          4
+        ],
+        [
+          1,
+          2,
+          "STRAWBERRY",
+          3
+        ],
+        [
+          2,
+          2,
+          "WHEAT",
+          5
+        ],
+        [
+          3,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          4,
+          2,
+          "MELON",
+          0
+        ],
+        [
+          0,
+          3,
+          "SHEEP",
+          5
+        ],
+        [
+          1,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          2,
+          3,
+          "GOOSE",
+          2
+        ],
+        [
+          3,
+          3,
+          "SHEEP",
+          3
+        ],
+        [
+          4,
+          3,
+          "SHEEP",
+          0
+        ],
+        [
+          0,
+          4,
+          "SHEEP",
+          4
+        ],
+        [
+          1,
+          4,
+          "COW",
+          0
+        ],
+        [
+          2,
+          4,
+          "COW",
+          0
+        ],
+        [
+          3,
+          4,
+          "COW",
+          0
+        ],
+        [
+          4,
+          4,
+          "SHEEP",
+          0
+        ]
+      ],
+      "routes": [
+        "boey02-34",
+        "boey02-35",
+        "boey02-36",
+        "boey02-37",
+        "boey02-38",
+        "boey02-39",
+        "boey02-40"
+      ]
+    }
+  },
+  "routes": {
+    "boey02-00": {
+      "episode": 115463627,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "SMOOTHIE_SHOP",
+      "second_shop": "SMOOTHIE_SHOP",
+      "second_family": "milk",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值14牛、3羊、2鹅、42草莓、0番茄、29胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "99bb6cbff16ae18742fabd290fe44293eb770cb6689565ff72b54b30e02df02a",
+      "sha256": "df42e363b7321f5e848ab13d79e23b3825211ae94096b46e287bbaf35abd80b5",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-01": {
+      "episode": 115411048,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "SMOOTHIE_SHOP",
+      "second_shop": "ICE_CREAM_SHOP",
+      "second_family": "milk",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值12牛、3羊、3鹅、33草莓、0番茄、57胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "15a4005526c5b2e99c541bdeb77a9abacbb208c6a91964c373dcb1e1460b05b3",
+      "sha256": "e581a828776a1eb150d44991f824469f036b3b5db9404bc2ac2d3644695834e8",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-02": {
+      "episode": 115437230,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "ICE_CREAM_SHOP",
+      "second_shop": "BRUNCH_SPOT",
+      "second_family": "fruit",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值10牛、3羊、4鹅、35草莓、0番茄、29胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "264ee84afe7904994355d2688d0c3681d298a06ed3c1236e6edfc65ab80984bb",
+      "sha256": "ef7605f8fe95be276d8975e35d684ed305c842248b1d74f7850786732631e38c",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-03": {
+      "episode": 115471975,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "ICE_CREAM_SHOP",
+      "second_shop": "BAKERY",
+      "second_family": "bakery",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值10牛、4羊、5鹅、38草莓、0番茄、16胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "46adee6cf9a397767f3c0d7347144830076df91376d0d9cc9d0e615f66b3ef39",
+      "sha256": "8d54743be2554294dd4189d3a25c358b6e9f8820eefdb799968ea4b4942634f7",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-04": {
+      "episode": 115475133,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "SMOOTHIE_SHOP",
+      "second_shop": "PIZZA_SHOP",
+      "second_family": "pizza",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值15牛、6羊、2鹅、34草莓、0番茄、16胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "93a3816757dd9693e200e1ada0f38c391184f2e614c4be455871bd318bb9a97b",
+      "sha256": "63a225e025ff34cb7dee27d2473d3aebb0f3d0c2deebd665f63ae89a77f80020",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-05": {
+      "episode": 115423105,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "ICE_CREAM_SHOP",
+      "second_shop": "FARMERS_MARKET",
+      "second_family": "fruit",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值8牛、3羊、5鹅、36草莓、0番茄、30胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "2156070b9d50e2c1d6a5d1335b0cf7c2804f984d2b1195cea0a4f51dc5e10b13",
+      "sha256": "3823e538883663a02b0e372366c9d18917ff0cc0764fe10404140937ce484b37",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-06": {
+      "episode": 115458862,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "SMOOTHIE_SHOP",
+      "second_shop": "PET_CAFE",
+      "second_family": "pet",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值8牛、3羊、7鹅、29草莓、0番茄、38胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "41f0a79fd789a09fc702962a62761d7e89f3cf0731efec87b2f0109f84217a24",
+      "sha256": "2598f97286682b01dbb458a075eb713cf2b77140dd2751e558f739c6c29b20b5",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-07": {
+      "episode": 115486951,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "SMOOTHIE_SHOP",
+      "second_shop": "YARN_STORE",
+      "second_family": "wool",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值7牛、10羊、4鹅、28草莓、0番茄、35胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "096274985178982c3ae6775e2ada610517747c2158632bed5e29908c984bdddb",
+      "sha256": "4a553c373880f926b0f4628ee27fd727f8eff93f4efdd823ffd83030ca7efaf3",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-08": {
+      "episode": 115454275,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "ICE_CREAM_SHOP",
+      "second_shop": "YARN_STORE",
+      "second_family": "wool",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值7牛、20羊、2鹅、22草莓、0番茄、35胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "ea5e9152d6abdbac6255fd0b98ce674325db0be158455e4dee8a8b4049c12e34",
+      "sha256": "a2a9a505c8ac4352ebd9845e099fc502d10c02eb17089d993220b707128c8899",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-09": {
+      "episode": 115508412,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "milk",
+      "first_family": "milk",
+      "first_shop": "SMOOTHIE_SHOP",
+      "second_shop": "ICE_CREAM_SHOP",
+      "second_family": "milk",
+      "manual_reason": "七牛两鹅两羊、九甜瓜五草莓入口，覆盖八种第二商店和转为二十羊的差异尾段；观测峰值14牛、2羊、2鹅、36草莓、0番茄、28胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "de1c15943aac3c5f6290dccfc37f5ad2c7019bb99cf55067737cce182fb476be",
+      "sha256": "26e5ed9936cc83efdba5c28565d05df33398d6bd41b05bb755635744dc0fd721",
+      "paid_group": "boey02-00",
+      "normalized_generation_references": 0
+    },
+    "boey02-10": {
+      "episode": 115447850,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "FARMERS_MARKET",
+      "second_shop": "BRUNCH_SPOT",
+      "second_family": "fruit",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值7牛、3羊、6鹅、40草莓、0番茄、28胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "dff98cb6a38e9c921dbf1ace09f31323cb4f4deb2705a15c0bf94b1622f39f81",
+      "sha256": "a0af26115e0a2c468262bdfbe6db574d80d3dc99fc1c7b9368ca3ca043040c99",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-11": {
+      "episode": 115403470,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "BRUNCH_SPOT",
+      "second_shop": "PIZZA_SHOP",
+      "second_family": "pizza",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值8牛、2羊、6鹅、32草莓、0番茄、40胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "0ff458dd2d3eda17f80373be9eb985efba08bef891d2866b3fd138caff3f7041",
+      "sha256": "48948151de5fe16847093051c5f946a562d7dfd56b143744d0f90a892f207c06",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 14
+    },
+    "boey02-12": {
+      "episode": 115462016,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "FARMERS_MARKET",
+      "second_shop": "FARMERS_MARKET",
+      "second_family": "fruit",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值6牛、8羊、5鹅、39草莓、0番茄、28胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "f10d71f24c889a929da33903d1b6c720a786b5b3e5212553f455ea41775fca13",
+      "sha256": "4c265743c23843bdbe7a2e7f98138c8495f2ee1c57d14afe501893d141d3f37f",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-13": {
+      "episode": 115481898,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "FARMERS_MARKET",
+      "second_shop": "ICE_CREAM_SHOP",
+      "second_family": "milk",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值6牛、8羊、4鹅、37草莓、0番茄、37胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "28913c8acc518e9d52f9810c8458ea4b2c445ec01c1865bc1ea1486ce378041e",
+      "sha256": "fb15333381d86b28d08b9c1ac385c6ea0d8a57f88644b543d556589c605f51ea",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-14": {
+      "episode": 115525573,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "BRUNCH_SPOT",
+      "second_shop": "PET_CAFE",
+      "second_family": "pet",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值4牛、3羊、10鹅、36草莓、0番茄、22胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "53c849847d31089051d19c02525a1a6ca54a3778fe82c24b640336227e1c7378",
+      "sha256": "10b1db2432a1d78c6a77a639e20face6d15dee251a266ae5a4dd27483f2303b8",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-15": {
+      "episode": 115447864,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "BRUNCH_SPOT",
+      "second_shop": "BAKERY",
+      "second_family": "bakery",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值8牛、3羊、9鹅、36草莓、0番茄、14胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "f3c420d3e16b95d0878646045c9f0623c49562261160678b2291497bc86079b5",
+      "sha256": "f5ea054e6db7f145a456a2a277d64e3a3eff8610804146cf98e729a5a681f8de",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-16": {
+      "episode": 115483619,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "BRUNCH_SPOT",
+      "second_shop": "SMOOTHIE_SHOP",
+      "second_family": "milk",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值7牛、3羊、7鹅、37草莓、0番茄、38胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "f3cb79d0f6424513c963031d0ca0d14ce58b3e67631dc566509817e37d9e9cc3",
+      "sha256": "d6dc0c61d429cc14a2a287c37a77ceb2e4a425e84389f9a9bea793bc9e6b55a4",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-17": {
+      "episode": 115518035,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "BRUNCH_SPOT",
+      "second_shop": "YARN_STORE",
+      "second_family": "wool",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值7牛、10羊、5鹅、28草莓、0番茄、16胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "a7fcaad1f1a502414226424c880908b60854abd409135be4a473db8b5299289b",
+      "sha256": "92350ebaf592cbef01ef1e5cc55c2bab3e33620f6cb271d2f8008da554508f0e",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-18": {
+      "episode": 115517778,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "BRUNCH_SPOT",
+      "second_shop": "PIZZA_SHOP",
+      "second_family": "pizza",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值6牛、13羊、5鹅、22草莓、0番茄、30胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "19bc687c3cf9a41b1c3e220767a1b52e57de15e741427c40aefc03b83f2f43c0",
+      "sha256": "6c15449911b4655a324c6da78827b1cde07cd633242cfa455e08b11b6154e2ce",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 0
+    },
+    "boey02-19": {
+      "episode": 115498278,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "brunch",
+      "first_family": "fruit",
+      "first_shop": "FARMERS_MARKET",
+      "second_shop": "FARMERS_MARKET",
+      "second_family": "fruit",
+      "manual_reason": "四牛四鹅两羊、九甜瓜六草莓入口，覆盖八种第二商店及鹅、羊、奶不同后继；观测峰值4牛、3羊、9鹅、35草莓、0番茄、32胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "b5d4e20bb733ff2f561c3ef4d37cd9d72a920ff26328fad6581b9cff70ccb253",
+      "sha256": "5727a57d0b070f24edb9e518ce3f274a5eb533d535616e5cc1b645f4c0575237",
+      "paid_group": "boey02-10",
+      "normalized_generation_references": 30
+    },
+    "boey02-20": {
+      "episode": 115441561,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "pet",
+      "first_shop": "PET_CAFE",
+      "second_shop": "FARMERS_MARKET",
+      "second_family": "fruit",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值7牛、3羊、7鹅、22草莓、0番茄、26胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "2c57d4d683e4d1d9884fb0eb586f703bc7412e7abd5b3a6673064edd9817f945",
+      "sha256": "3bf5e3229258524fc6ed4439b8cecfce623375ab459c45ece1383156f17d5353",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-21": {
+      "episode": 115460375,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "bakery",
+      "first_shop": "BAKERY",
+      "second_shop": "SMOOTHIE_SHOP",
+      "second_family": "milk",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值10牛、6羊、5鹅、30草莓、0番茄、13胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "1f756084d072af73bd55b1979e37df84615401b4b6713c68adb9416e7500ade8",
+      "sha256": "13d6a49f9bb5d8d56cce1347d45f3ec16dd45961ed2f811a56feccdf3e1053e1",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-22": {
+      "episode": 115465235,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "bakery",
+      "first_shop": "BAKERY",
+      "second_shop": "YARN_STORE",
+      "second_family": "wool",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值4牛、9羊、8鹅、18草莓、0番茄、18胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "a119f4ed8029dd65106d7c5fb7d8c92b6cb6a35ae5b590174cedb9b7ac682c59",
+      "sha256": "afeee1a52fc626ffa6b4f004f4deabe1fa6e0510bb2b8a4ec0c2053ecaf44159",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-23": {
+      "episode": 115468424,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "pet",
+      "first_shop": "PET_CAFE",
+      "second_shop": "BAKERY",
+      "second_family": "bakery",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值6牛、6羊、10鹅、16草莓、0番茄、27胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "4a24f18534628030d571986614f9885d28ec04813de8c37f9798e500e689c659",
+      "sha256": "c1d39b7b9a69fda48514cbf21ad531501cc0f999e5c4a7c33d5fdb5f60359171",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-24": {
+      "episode": 115523995,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "bakery",
+      "first_shop": "BAKERY",
+      "second_shop": "PIZZA_SHOP",
+      "second_family": "pizza",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值9牛、3羊、8鹅、17草莓、0番茄、17胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "9a43739a9ccce15395bd6ab4603f0f1fabd2e2b213fefb9d0c7c2c90edf42544",
+      "sha256": "ffbbe8a40ef79f8dce5a9363a37bd0acdcc7ab1fdfa6dd22451c9a866b2f908b",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-25": {
+      "episode": 115441538,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "pet",
+      "first_shop": "PET_CAFE",
+      "second_shop": "BRUNCH_SPOT",
+      "second_family": "fruit",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值4牛、3羊、10鹅、26草莓、0番茄、42胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "3a8f3b3ee91fa420846fa9c25ed233a6555c35130313876f2f11674a0d6dbf40",
+      "sha256": "77a274352893556407a8f1fabbb8004b29de9a2215a61ad0641731de9a71020a",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-26": {
+      "episode": 115489054,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "pet",
+      "first_shop": "PET_CAFE",
+      "second_shop": "PET_CAFE",
+      "second_family": "pet",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值4牛、6羊、12鹅、11草莓、0番茄、27胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "b4a06b0fdbd66ef7360ee4d2761bdb65f056c9d3d9f34082e0ce5313c7a9e3b6",
+      "sha256": "f4ce9ad8367e224d46b62212f0ea96ca7f82f96aa471baf55f1e639a5008807c",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-27": {
+      "episode": 115530789,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pet",
+      "first_family": "bakery",
+      "first_shop": "BAKERY",
+      "second_shop": "ICE_CREAM_SHOP",
+      "second_family": "milk",
+      "manual_reason": "四牛四鹅两羊、十二甜瓜三草莓入口，覆盖八种第二商店及胡萝卜轮作；观测峰值7牛、4羊、8鹅、35草莓、0番茄、16胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "922501d49643fecf5c9952259ee021c2b0ed6cd0485b061c4f0f9403847a1fc3",
+      "sha256": "7ec4cba96dc116a0599d0f3f4f6a3b77738137118b26e0c92fcdb7cf26d2cebe",
+      "paid_group": "boey02-20",
+      "normalized_generation_references": 0
+    },
+    "boey02-28": {
+      "episode": 115446289,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pizza",
+      "first_family": "pizza",
+      "first_shop": "PIZZA_SHOP",
+      "second_shop": "PIZZA_SHOP",
+      "second_family": "pizza",
+      "manual_reason": "七牛两鹅两羊、十甜瓜四草莓入口，保留披萨首店独立生产日程；观测峰值15牛、2羊、3鹅、16草莓、0番茄、35胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "b87c8703cf375b96100d774d885ba1eedf45f3a892fd2d47acb733253fe32b2a",
+      "sha256": "380be1595252e8d203a4b3c8b11b707b8f5502d89ca242120c9acaf4d32f4e6e",
+      "paid_group": "boey02-28",
+      "normalized_generation_references": 0
+    },
+    "boey02-29": {
+      "episode": 115471911,
+      "submission": 56686742,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pizza",
+      "first_family": "pizza",
+      "first_shop": "PIZZA_SHOP",
+      "second_shop": "FARMERS_MARKET",
+      "second_family": "fruit",
+      "manual_reason": "七牛两鹅两羊、十甜瓜四草莓入口，保留披萨首店独立生产日程；观测峰值10牛、3羊、6鹅、27草莓、0番茄、19胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "ca99f056aa069bd1a284818c056f6611a0f622e48ab22be2459732e55d9cd35a",
+      "sha256": "1f8d777a7a888fcdfb4262aabadf0e981d5ddd5556d93e6da849ac9e4e55f345",
+      "paid_group": "boey02-28",
+      "normalized_generation_references": 0
+    },
+    "boey02-30": {
+      "episode": 115484016,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "pizza",
+      "first_family": "pizza",
+      "first_shop": "PIZZA_SHOP",
+      "second_shop": "SMOOTHIE_SHOP",
+      "second_family": "milk",
+      "manual_reason": "七牛两鹅两羊、十甜瓜四草莓入口，保留披萨首店独立生产日程；观测峰值15牛、2羊、2鹅、31草莓、0番茄、33胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "78dae18091764f4e8e9cff5130dd827b17214c7272f63f2b1f81b98c823c256b",
+      "sha256": "191d2ac4d9fd3136f492512db6aa9d78935516877ebac5e5034da5763081d701",
+      "paid_group": "boey02-28",
+      "normalized_generation_references": 0
+    },
+    "boey02-31": {
+      "episode": 115440913,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "pizza",
+      "first_family": "pizza",
+      "first_shop": "PIZZA_SHOP",
+      "second_shop": "PET_CAFE",
+      "second_family": "pet",
+      "manual_reason": "七牛两鹅两羊、十甜瓜四草莓入口，保留披萨首店独立生产日程；观测峰值8牛、13羊、5鹅、19草莓、0番茄、30胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "a70c9e3e1c365cf63fd505a33267e68104a9aa2ce79afce0f24b819f79ce171a",
+      "sha256": "9e10a44c1e0195cccbced361de79bf1b0d66e5396831906b1b81f1879c4919b4",
+      "paid_group": "boey02-28",
+      "normalized_generation_references": 0
+    },
+    "boey02-32": {
+      "episode": 115493370,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "pizza",
+      "first_family": "pizza",
+      "first_shop": "PIZZA_SHOP",
+      "second_shop": "BRUNCH_SPOT",
+      "second_family": "fruit",
+      "manual_reason": "七牛两鹅两羊、十甜瓜四草莓入口，保留披萨首店独立生产日程；观测峰值8牛、3羊、8鹅、26草莓、0番茄、21胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "6f8fbc985369ae3c7f3d8047b82dca8ade5937f3b6d7922dd5251560cbecc190",
+      "sha256": "2c25065d245db94c971e24887ece722678fa86a097753cae192ba60340330277",
+      "paid_group": "boey02-28",
+      "normalized_generation_references": 0
+    },
+    "boey02-33": {
+      "episode": 115523890,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "pizza",
+      "first_family": "pizza",
+      "first_shop": "PIZZA_SHOP",
+      "second_shop": "BAKERY",
+      "second_family": "bakery",
+      "manual_reason": "七牛两鹅两羊、十甜瓜四草莓入口，保留披萨首店独立生产日程；观测峰值8牛、3羊、10鹅、17草莓、0番茄、22胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "68fa6860225dd09bb8f643cf3a56cb9eebf6c165d5ff5dbc96c9289f7434d474",
+      "sha256": "c8ca89c7587f4069ed86516889ff2bc3a8f2f6ae995c0433cd50ff8e79b11470",
+      "paid_group": "boey02-28",
+      "normalized_generation_references": 0
+    },
+    "boey02-34": {
+      "episode": 115435834,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "wool",
+      "first_family": "wool",
+      "first_shop": "YARN_STORE",
+      "second_shop": "PET_CAFE",
+      "second_family": "pet",
+      "manual_reason": "五羊三牛两鹅、十甜瓜四草莓一小麦入口，覆盖七种第二商店与转牛后继；观测峰值8牛、17羊、2鹅、21草莓、0番茄、27胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "d167564b9d6fc338dbde4bf0d5a0c66fa8da310a39e06a5f4f92d7a896ba4571",
+      "sha256": "b491154d9bb13b4c132ba5a8588272207772eed1d881b7fb2e039f15659d43b9",
+      "paid_group": "boey02-34",
+      "normalized_generation_references": 0
+    },
+    "boey02-35": {
+      "episode": 115457982,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "wool",
+      "first_family": "wool",
+      "first_shop": "YARN_STORE",
+      "second_shop": "BAKERY",
+      "second_family": "bakery",
+      "manual_reason": "五羊三牛两鹅、十甜瓜四草莓一小麦入口，覆盖七种第二商店与转牛后继；观测峰值3牛、17羊、2鹅、19草莓、0番茄、17胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "9e5befe09a4ffaafe502953880b648ebc2750f1e47b2fc90e4b0fa8afb5abaaf",
+      "sha256": "de8cd75edfb13f6ea0590f9d959e6a343fc1c1a82116646c4f1802200aa4c97b",
+      "paid_group": "boey02-34",
+      "normalized_generation_references": 0
+    },
+    "boey02-36": {
+      "episode": 115470222,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "wool",
+      "first_family": "wool",
+      "first_shop": "YARN_STORE",
+      "second_shop": "PIZZA_SHOP",
+      "second_family": "pizza",
+      "manual_reason": "五羊三牛两鹅、十甜瓜四草莓一小麦入口，覆盖七种第二商店与转牛后继；观测峰值10牛、11羊、2鹅、17草莓、0番茄、9胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "c908ff95c8360e15a579102c2f7a663f4cf5e42f919c2cb387944726e2f9a155",
+      "sha256": "ee47fa67977b332ccfb090a8f51f154f12e10f7bc5943fdc434503b77b2a344d",
+      "paid_group": "boey02-34",
+      "normalized_generation_references": 0
+    },
+    "boey02-37": {
+      "episode": 115483583,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "wool",
+      "first_family": "wool",
+      "first_shop": "YARN_STORE",
+      "second_shop": "SMOOTHIE_SHOP",
+      "second_family": "milk",
+      "manual_reason": "五羊三牛两鹅、十甜瓜四草莓一小麦入口，覆盖七种第二商店与转牛后继；观测峰值9牛、17羊、2鹅、28草莓、0番茄、17胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "8cfed83c5a3357223f5ffdb8b54d16d439ddf687a2eca3944fc0a451137202bc",
+      "sha256": "e933af620b3dd57b272584bc7faa969fa97bd0dfa57d71a64184c3eb11854702",
+      "paid_group": "boey02-34",
+      "normalized_generation_references": 0
+    },
+    "boey02-38": {
+      "episode": 115483960,
+      "submission": 56686734,
+      "seat": 0,
+      "lineage": "boey02",
+      "group": "wool",
+      "first_family": "wool",
+      "first_shop": "YARN_STORE",
+      "second_shop": "FARMERS_MARKET",
+      "second_family": "fruit",
+      "manual_reason": "五羊三牛两鹅、十甜瓜四草莓一小麦入口，覆盖七种第二商店与转牛后继；观测峰值7牛、17羊、2鹅、23草莓、0番茄、35胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "6077c3f44d72418031363e140d552b61052f8206feb3d292825b6234a6eeb588",
+      "sha256": "e322f6b5cfd3bbce0d4e132d94dee54c001ead50cb1e6aba57244da025a2d8af",
+      "paid_group": "boey02-34",
+      "normalized_generation_references": 0
+    },
+    "boey02-39": {
+      "episode": 115486913,
+      "submission": 56686734,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "wool",
+      "first_family": "wool",
+      "first_shop": "YARN_STORE",
+      "second_shop": "YARN_STORE",
+      "second_family": "wool",
+      "manual_reason": "五羊三牛两鹅、十甜瓜四草莓一小麦入口，覆盖七种第二商店与转牛后继；观测峰值4牛、18羊、3鹅、17草莓、0番茄、18胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "0d33b04ec20bfc29ee10c537ee7d2fd21cf469f18590f39b84591f19385a7855",
+      "sha256": "e929bf5929b380d81b0ffc666914795043428c271b0ddc222e12a648502ac863",
+      "paid_group": "boey02-34",
+      "normalized_generation_references": 0
+    },
+    "boey02-40": {
+      "episode": 115452571,
+      "submission": 56686742,
+      "seat": 1,
+      "lineage": "boey02",
+      "group": "wool",
+      "first_family": "wool",
+      "first_shop": "YARN_STORE",
+      "second_shop": "ICE_CREAM_SHOP",
+      "second_family": "milk",
+      "manual_reason": "五羊三牛两鹅、十甜瓜四草莓一小麦入口，覆盖七种第二商店与转牛后继；观测峰值7牛、11羊、4鹅、20草莓、0番茄、21胡萝卜；保留用工和收运顺序。",
+      "replay_sha256": "2725073914d3aefcc43b4145725e27e401710909b20447ccb9358078cb9b0a0f",
+      "sha256": "9031535387750a2187beccb2cf082f76343a29c0bc00def67f64785ecaf99de9",
+      "paid_group": "boey02-34",
+      "normalized_generation_references": 0
+    }
+  },
+  "opening_adjustment": [
+    4,
+    3
+  ],
+  "contract": "Only observed shops and exact paid identities admit whole continuations."
+}
