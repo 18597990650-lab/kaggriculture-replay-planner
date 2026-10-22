@@ -1,0 +1,168 @@
+{
+  "python": "3.11.2 (main, May 12 2026, 05:17:27) [GCC 12.2.0]",
+  "cython": "3.2.9",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+  "extension_suffix": ".cpython-311-x86_64-linux-gnu.so",
+  "directives": {
+    "language_level": 3,
+    "annotation_typing": false,
+    "infer_types": false,
+    "binding": true,
+    "boundscheck": true,
+    "wraparound": true,
+    "cdivision": false
+  },
+  "sources": {
+    "top1_planner/recipe.py": "750e134aff8f4077967a659f728a57bf54d3dd682b2de7cebcfba620b52177b5",
+    "top1_planner/material.py": "4aef72f9ea15d2270c4e7d8ef4abd2fc83bad4dc4ecff2fd5d9f2bc7c6bc9279",
+    "top1_planner/rules.py": "3869e60557b0c7abb0cbe9d40dfbea57ba1dccf4ea02038714008d7182031374",
+    "top1_planner/work_dispatch.py": "847fce3a20a88e9cce228655b7667f265a5a8e2d31f66cd89209c550b8a98617",
+    "top1_planner/native_settlement.py": "aa44fa2c18e1e5fe6572b228855807f3b964c869647fe4aeac22c9fbc9d4b41c",
+    "top1_planner/calendar.py": "5f177ff982b896cfebdc461b0a7cd2920ddd0c66bf86cb6d69ba3503b9befbc0",
+    "top1_planner/compiler.py": "99a217bfeefa391f22e2917d15cee14f4a7e70dcac10c792339decf6fbb38fd7",
+    "top1_planner/establishment_order.py": "c15b672c87a7e7805f3a2ce92aa2f72174e1275303f3f5a18dc58f5a241377b6",
+    "top1_planner/establishment_precedence.py": "049ebb9225241a549d1a738e5a9da82d2b845ec8bd3e42c028dba441320f0846",
+    "top1_planner/due_feed_order.py": "6ca3b6a9ae599cd3cc95af039cee753e0750e3903cd34bc595ec403004cf45a0",
+    "top1_planner/successor_service.py": "5dca14a5c5b3069ee2ed527ab1425043394dd94d51693b1cf308514dbddb2659",
+    "top1_planner/deadline_order.py": "016b2dbd1c584c1763ce140b87840852c6e3a9e368806d7fa85b2b9c1e47250a",
+    "top1_planner/service_cycle.py": "40ed8fff70491b9a95f517e378d5d601fd0f62b8288371c2d3f84a4c223dc3b2",
+    "top1_planner/orphan_harvest.py": "7043bc991a7a4745215ba42e64fc1c2812267656c6df3929f624975521114efd",
+    "top1_planner/critical_water.py": "97c8ffcbac678babe28f1d420c8f541ff8610258510b0322aadf5865a5f3ba34",
+    "top1_planner/survival_water.py": "a79705d454dcc4af820ff0d6c9d35c8915539abd779c30098cf6bed747e3a644",
+    "top1_planner/terminal_delivery.py": "24ad035b67dce0d5a32fbcad92d6473c0e56902325ef6e54f6500f803ad701f3",
+    "top1_planner/allocation_admission.py": "60e84b86d58e7191c6e8ebf14d30243cc11e74acb2411518c2776bc8a2180a25",
+    "top1_planner/settlement_packet.pyx": "15273c6353d9774a076ad7a3ed4e7b0d5ebeb3f92ca3c3e68b24246954d06fbb",
+    "top1_planner/task_allocation.py": "42d60894b1e553553e6f4431866bcba7254c75e6d9c93138be951bf2db5df86f",
+    "top1_planner/recipe.pyx": "600e3adfd1112ad18e821c2830032e49a887ada0661f6be4e3c66340d5e0b72d",
+    "top1_planner/redeployment.py": "e0f51c9f944d1a5b4f96b1ad93e9fa0460d06c25c5899833480e728583e61792",
+    "top1_planner/markets.py": "41d472e2fd852c9ae842dc1acb0da8ade240047bf5bd32e160dc0af3ba07a37e",
+    "top1_planner/programmes.pyx": "048b60fb3f1eae8ce463eaa57fecb439d62e33d90dc4de30b2f8a2d75f75f905",
+    "top1_planner/programmes.py": "40827fd506637dd7603c4c560b9855a798106a76b81cb98220e3708563d2a2c1",
+    "top1_planner/programmes.pxd": "cbb122a40aac0f2d91cc230096ce092c684867a45a8f9f50c50e5546b1cc11b5",
+    "top1_planner/material_needs.pyx": "0ff1f5879cfb3241294739d1cde14ae1c03f56d274c93f871d98bd0fb1996f1a"
+  },
+  "artifacts": {
+    "calendar.cpython-311-x86_64-linux-gnu.so": "3739e710b84a203d58cd24dfd0bb65f1a673bdd3cb0376c602f28cf5bf21c106",
+    "compiler.cpython-311-x86_64-linux-gnu.so": "354e7ef79ceb8e83d3788b7eae08c7877615829cb336b833e91b69e8ce5edcf2",
+    "critical_water.cpython-311-x86_64-linux-gnu.so": "69d1b5b5234019b3ca0b5ca9b754e3869627da5721ba643bc73e6a98348a3485",
+    "deadline_order.cpython-311-x86_64-linux-gnu.so": "fd0af7edf32a56995994b5f409de92a7531975c31fc1cb61aff536887b3cde33",
+    "due_feed_order.cpython-311-x86_64-linux-gnu.so": "5769dc6aed62ed85af7be99abe1fc4df785f144ba6ca664bd621644d5c7f40ab",
+    "establishment_order.cpython-311-x86_64-linux-gnu.so": "842461641bb2a50d2e9598af78d9de4e3da7d60b37a9629fbf7cda3fd5a6da35",
+    "establishment_precedence.cpython-311-x86_64-linux-gnu.so": "dd75cab95e50a0e4c967b8fe3aed1e9e6cdc610c9d553c041beae3aff391ebfd",
+    "material.cpython-311-x86_64-linux-gnu.so": "3e2073e1bb198f26443d4b4bbf832fc06c1d35e2c3cdf5698f18c78dc0ce2835",
+    "native_settlement.cpython-311-x86_64-linux-gnu.so": "c8f5753abfa16d71a615f47e0e425b3038f7614cd1e089dc70cff35ef1bd76fb",
+    "orphan_harvest.cpython-311-x86_64-linux-gnu.so": "cec2a87208a5ff3399e0932228ed708cd8ae9f8881c9b67b3c08fd4c0c2b9bdb",
+    "recipe.cpython-311-x86_64-linux-gnu.so": "991d721b99de263dd99f13e5488940efde50024e480df4b4108b40f21c3d4fa8",
+    "rules.cpython-311-x86_64-linux-gnu.so": "9c73c5820efa0a270e34975e4ff3dc5ed0e69a973beb563d4b3db4519a10dfa4",
+    "service_cycle.cpython-311-x86_64-linux-gnu.so": "37c73f714286297a0cc462d90afc8b759f7c8edb698fd717bfd4dc8ec1bcd670",
+    "successor_service.cpython-311-x86_64-linux-gnu.so": "35e42b10ed69f80b9e086a20db532abd5fd9f77e953eef202b814667ffaf64eb",
+    "survival_water.cpython-311-x86_64-linux-gnu.so": "9647bd4dc6eb12f7b8550e52340ed3a820e1226dcfdc91f47c968e0c1f6f128a",
+    "terminal_delivery.cpython-311-x86_64-linux-gnu.so": "d0f83a7b2e8c79e132b6de2224f25d62eccd1aad118760d9b970434dbe507f0d",
+    "work_dispatch.cpython-311-x86_64-linux-gnu.so": "f5568c02fce5652fb75f0c84335a321f759a7f0f045cc6e84ee654b76751d71e",
+    "allocation_admission.cpython-311-x86_64-linux-gnu.so": "2cad04ecfd48256a9e977c76c0c3c19070b1c915b5b4b2898f0810378861823c",
+    "settlement_packet.cpython-311-x86_64-linux-gnu.so": "7f2f698762b1050d43b59cd9f3b0abba3e400bfb3c86b49fea3347d60025163b",
+    "task_allocation.cpython-311-x86_64-linux-gnu.so": "a4c4d6c74e1e161e2b3a2ace9dff333e3c540554a3861a737e74dd8966c72595",
+    "programmes.cpython-311-x86_64-linux-gnu.so": "ba4b291532265d96071076c646258cfd0674a0a961d6ba5b17359e76363ba975",
+    "material_needs.cpython-311-x86_64-linux-gnu.so": "8830342f5117747dcf59d50590454ac772011299368bd12025d1383d62d36058"
+  },
+  "optimization": {
+    "recipe.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": "use",
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fprofile-use",
+        "-Werror=missing-profile",
+        "-Werror=coverage-mismatch"
+      ]
+    },
+    "rules.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": "use",
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fprofile-use",
+        "-Werror=missing-profile",
+        "-Werror=coverage-mismatch"
+      ]
+    },
+    "material.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": "use",
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fprofile-use",
+        "-Werror=missing-profile",
+        "-Werror=coverage-mismatch"
+      ]
+    },
+    "settlement_packet.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": "use",
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fprofile-use",
+        "-Werror=missing-profile",
+        "-Werror=coverage-mismatch"
+      ]
+    },
+    "native_settlement.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": "use",
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fprofile-use",
+        "-Werror=missing-profile",
+        "-Werror=coverage-mismatch"
+      ]
+    },
+    "programmes.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": null,
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing"
+      ]
+    },
+    "material_needs.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": "use",
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fprofile-use",
+        "-Werror=missing-profile",
+        "-Werror=coverage-mismatch"
+      ]
+    },
+    "allocation_admission.cpython-311-x86_64-linux-gnu.so": {
+      "pgo": null,
+      "flags": [
+        "-O3",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fwrapv",
+        "-fno-strict-aliasing"
+      ]
+    }
+  }
+}
