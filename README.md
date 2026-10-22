@@ -3,7 +3,7 @@
 > 面向 Kaggriculture 农场经营模拟赛的规划型智能体：把策略日程、市场估值、对手供给预测和规则执行器组合成一套可检查、可复现、可继续迭代的工程方案。
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)](tests/)
+[![Tests](https://github.com/18597990650-lab/kaggriculture-replay-planner/actions/workflows/tests.yml/badge.svg)](https://github.com/18597990650-lab/kaggriculture-replay-planner/actions/workflows/tests.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 
 ## 项目亮点
@@ -73,7 +73,8 @@ python -m kaggriculture_planner.cli info
 # 运行基础测试
 python -m pytest tests
 
-# 校验发布包结构
+# 下载原始运行包并校验发布包结构
+curl -L --fail -o submission.tar.gz https://github.com/18597990650-lab/kaggriculture-replay-planner/releases/download/v1.0.0/submission.tar.gz
 python tools/verify_release.py
 ```
 
