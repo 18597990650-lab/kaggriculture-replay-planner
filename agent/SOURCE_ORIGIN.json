@@ -1,0 +1,14 @@
+{
+  "version": "BOEY02",
+  "source_submissions": [
+    56686734,
+    56686742
+  ],
+  "teacher": "Boey",
+  "own_calendars": 41,
+  "old_own_calendars_retained": 0,
+  "engine_parent": "D:\\work\\farm\\research\\supply35-regional-rotation-library-20260929\\candidate",
+  "predictor": "P110 q7 plus supply35 prior",
+  "own_route_model": false,
+  "boundaries": "Successful teacher work intentions; runtime movement, procurement, sales and adaptation use the retained engine."
+}
