@@ -1,0 +1,59 @@
+{
+  "episode": 115463627,
+  "source_sha256": "99bb6cbff16ae18742fabd290fe44293eb770cb6689565ff72b54b30e02df02a",
+  "seat": 1,
+  "step": 144,
+  "products": [
+    "WHEAT",
+    "CARROT",
+    "TOMATO",
+    "STRAWBERRY",
+    "MELON",
+    "EGG",
+    "MILK",
+    "WOOL",
+    "FERTILIZER"
+  ],
+  "horizons": [
+    4,
+    8,
+    24
+  ],
+  "point_estimate": [
+    [
+      -0.05381922182259602,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.578831524661232,
+      0.9567904282175806
+    ],
+    [
+      -1.9272366310088092,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      17.560311179095216,
+      1.4324816786288173
+    ],
+    [
+      -2.3759813745060496,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      17.861633758068674,
+      9.924816034471831
+    ]
+  ],
+  "compact_goods_status": "applied",
+  "scope": "Forecast inspection from the public prefix, not actual future labels or policy performance"
+}
