@@ -1,0 +1,18 @@
+project:
+  name: kaggriculture-replay-planner
+  task: Kaggriculture farm-management simulation agent
+  python: "3.11"
+  platform: linux-x86_64
+paths:
+  agent: agent
+  tools: tools
+  data: data
+  reference: reference
+  docs: docs
+  tests: tests
+validation:
+  structural_tests: tests
+  release_check: tools/verify_release.py
+submission:
+  entrypoint: agent/main.py
+  package_command: "python tools/package_agent.py --agent agent --out work/submission.tar.gz"
