@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "archive_sha256": "ba6563fef551ad8091d37cedd37a7864eb224e46ecba7777f0d68d150066101d",
+  "agent_files_verified": 275,
+  "rebuilt_programmes": 41,
+  "rebuilt_library_files_byte_identical": 44,
+  "native_artifacts_verified": 22,
+  "python_files_parsed": 159,
+  "boundary": "Integrity and reconstruction checks only; not a new complete-game or online evaluation",
+  "validation_date": "2026-10-04",
+  "replay_task_extraction": {
+    "episode": 115463627,
+    "seat": 1,
+    "replay_sha256": "99bb6cbff16ae18742fabd290fe44293eb770cb6689565ff72b54b30e02df02a",
+    "native_transitions_verified": 719,
+    "tasks": 3426,
+    "worker_days": 267,
+    "skipped_no_effect": {
+      "PICKUP": 10,
+      "PLACE": 2,
+      "CARE": 6,
+      "HARVEST": 4,
+      "COLLECT_FERTILIZER": 5,
+      "PLANT": 1
+    },
+    "fixed_shops": true,
+    "source_file": "episode-115463627.json",
+    "scope": "Verified work intentions, not literal movement or market-order playback"
+  },
+  "raw_programme_reconstructed_byte_identical": true,
+  "actual_fill_labels": {
+    "episode": 115463627,
+    "seat": 1,
+    "verified_transitions": 719,
+    "actual_unit_fills": 8724
+  },
+  "predictor_smoke": {
+    "episode": 115463627,
+    "seat": 1,
+    "step": 144,
+    "observations_consumed": 145,
+    "compact_goods_status": "applied",
+    "python_reference_arithmetic": true
+  },
+  "full_policy_match_run": false,
+  "online_submission_performed": false,
+  "native_rebuild_run": false,
+  "credentials_scan": {
+    "known_token_patterns_found": 0,
+    "account_credentials_included": false
+  },
+  "historical_training_scripts": "Preserved for reference; not a standalone final-model retraining pipeline"
+}

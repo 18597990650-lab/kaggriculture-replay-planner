@@ -1,0 +1,6 @@
+* -text
+*.tar.gz binary
+*.bin.gz binary
+*.so binary
+*.dll binary
+

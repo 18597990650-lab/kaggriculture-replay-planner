@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: Kaggriculture Replay Planner
+message: If this project helps your work, please cite the repository.
+type: software
+authors:
+  - family-names: 刘
+    given-names: 泽楚
+repository-code: https://github.com/18597990650-lab/kaggriculture-replay-planner
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-10-22
+abstract: >-
+  A planning agent for the Kaggriculture farm-management simulation,
+  combining reusable production schedules, opponent supply forecasting,
+  market valuation, and runtime execution under resource constraints.
